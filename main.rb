@@ -20,7 +20,7 @@ element_login.type("VitamiN_man@mail.ru")
 
 element_pwd = browser.at_css('input[name=pass]')
 element_pwd.focus
-element_pwd.type("123456123aKaneo1", :enter)
+element_pwd.type("", :enter)
 
 sleep 10
 
